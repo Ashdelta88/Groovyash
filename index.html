@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Your Look</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* ฟอนต์หลัก */
+        body {
+            font-family: 'Prompt', sans-serif;
+            color: #444;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+
+        /* แบนเนอร์ใหญ่ */
+        .banner {
+            background-image: url('https://example.com/banner.jpg'); /* ใส่ URL ของรูปภาพแบนเนอร์ */
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        .banner h1 {
+            font-size: 3.5em;
+            font-weight: 700;
+            margin: 0;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .banner p {
+            font-size: 1.2em;
+            margin: 10px 0 20px;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        /* ปุ่มลิงก์ในแบนเนอร์ */
+        .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+        .nav-links a {
+            background-color: #ff69b4;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        .nav-links a:hover {
+            background-color: #ff4591;
+            transform: scale(1.05);
+        }
+
+        /* ส่วนท้าย */
+        footer {
+            background-color: #ff69b4;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ส่วนแบนเนอร์ -->
+    <div class="banner">
+        <h1>Change Your Look</h1>
+        <p>เปลี่ยนบุคลิกภาพและความสวยงามในแบบของคุณ</p>
+        <div class="nav-links">
+            <a href="skincare.html">การดูแลผิว</a>
+            <a href="makeup.html">การแต่งหน้า</a>
+            <a href="hairstyle.html">การจัดแต่งทรงผม</a>
+            <a href="tips.html">เคล็ดลับเสริมสวย</a>
+        </div>
+    </div>
+
+    <footer>
+        <p> Change Your Look จัดทำโดยกลุ่ม1 6/3 - </p>
+    </footer>
+
+</body>
+</html>
